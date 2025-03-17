@@ -75,7 +75,10 @@ header nav  {
   
   }
   
-  
+  h2:hover,h1:hover,h4:hover,h3:hover{
+     color:rgb(36, 135, 135); 
+     transition: color 0.3s ease-in-out;   
+}
  footer{
     background-color: rgb(187, 218, 245);
     border:1px solid  #002855;
@@ -153,7 +156,7 @@ header nav  {
     .contact-container p,.footer-contact p{
         padding:0px;
    }
- 
+/*  footer completed */
 .head{
     text-align: center;
     background-color:#002855 ;
@@ -165,7 +168,7 @@ header nav  {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* animation: fadeIn 2s ease-in-out; */
+    animation: slidein 2s ease-in-out;
 }
 .main{
     height: 400px;
@@ -242,11 +245,6 @@ h3{
     from{transform:translateY(20px);opacity:0;}
     to{transform:translateY(0px);opacity:1;}
 }
-/* h1:hover{ */
-    /* background-color:#105eb3;
-    color:#002855;
-} */
-/* footer completed */
 
 
 
@@ -267,18 +265,6 @@ h3{
 
 
 
-
-    /* .main{
-        display:grid;
-        grid-template-columns: repeat(3,1fr);
-    
-    }
-    
-    .first:hover{
-        background-color: blue;
-    }
-    @keyframes slidein{
-        from{transform:translateY(20px);opacity:0;}
-        to{transform:translateY(0px);opacity:1;}
-    }
+  
+   
     
