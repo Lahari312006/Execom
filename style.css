@@ -1,0 +1,37 @@
+.body{
+    background-color: #3674b5;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color:#a1e3f9;
+}
+.image-container{
+    width:500px;
+    background-color: aliceblue;
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow: opx 2px 4px rgba(0,0,0,0.2);
+    margin:500px;
+    transition:transform 0.3s ease-in;
+    animation:slidein 0.8s ease-in-out;
+    box-shadow: 5px 5px rgb(235 227 227);
+    display:inline-flex;
+    justify-items: center;
+}
+@keyframes slidein{
+    from(transform:translateY(20px);opacity:0;)
+    to(transform:transitionY(0);opacity:1;)
+}
+.image{
+    padding:16px;
+    text-align: center;
+    align-items: center;
+    display:inline-flex;
+    justify-items: center;
+}
+
+

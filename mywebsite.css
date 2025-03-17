@@ -1,0 +1,122 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family:'open sans';
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar{
+    padding:5px 0px 0px 0px;
+    height:70px;   
+    background-color:#5B9CC3;
+    border: solid  rgb(93, 67, 145) 2px;
+    display:flex;
+   position: fixed; 
+   width:100%;
+   align-items: center;
+   justify-content: space-between;
+   z-index:1000;
+}
+.ieeelogo{
+    height:70px;
+    width:90px;
+    padding:5px 280px 1px 20px;
+}
+.ieeelogo:hover,.svcelogo:hover,.social-icons:hover,h1:hover,img:hover{
+    animation: blink 0.5s 1;
+}
+@keyframes blink {
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+}
+.menulinks{
+    position:relative;
+    padding-right:40px;
+ bottom:30px; 
+ text-decoration: none;
+ transition: color 0.3s ease-in-out;
+}
+.menulinks:hover,.copyright:hover,.footlinks:hover{
+    color:rgb(81, 81, 164);
+}
+.dropdown{
+    position:relative;
+    bottom:30px;
+    height:35px;
+    border:solid rgb(1, 5, 8) 2px ;
+    border-radius:15px;
+    cursor:pointer;
+    background-color: #93c1f1;
+    text-align: center;
+    
+}
+.dropdown:hover{
+    background-color: rgb(3, 32, 65);
+    color:rgb(10, 1, 1)
+    transform:translate(20px);
+    
+}
+.dropdown:focus { 
+    border-color: white;
+}
+.head1{
+    text-align:center;
+}    
+h1{
+    text-align: center;
+    font-size: 2em;
+    color:#a1e3f9;
+}
+.main{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.first{
+    width:250px;
+    height:325px;
+    padding:20px;
+    background-color: rgb(100, 132, 238);
+    border-radius: 20px;
+    background-image: url("C:\Users\dell\Desktop\html\tree3.jpeg");
+    margin-left:80px;
+    margin-bottom:50px;
+    transition:transform 0.8s ease-in;
+    animation: slidein 0.5s ease-in-out;
+
+}
+.second{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    align-items: center;
+    background-image: url("C:\Users\dell\Desktop\html\bird2.jpeg");
+    margin-top:10px;
+    margin-bottom: 50px;
+    margin-left:12px;
+}
+.third{
+    margin-top: 30px;
+    color:rgb(233, 224, 224);
+    text-align:center;
+    border-top: 3px white groove;
+    padding-top: 3px;
+    /* background-color: rgb(236, 240, 247);
+} */
+/* .fourth{
+    height: 20px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-around
+} */
+.first:hover{
+    background-color: blue;
+}
+@keyframes slidein{
+    from{transform:translateY(20px);opacity:0;}
+    to{transform:translateY(0px);opacity:1;}
+}
