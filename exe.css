@@ -169,7 +169,7 @@ header nav  {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    animation: slidein 0.3s ease-in-out;
+    animation: slidein 3s ease-in;
 }
 .main{
     height: 400px;
