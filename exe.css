@@ -222,10 +222,6 @@ img{
     height:100%;
     object-fit: cover;
 }
-img:hover{
-    width:50%;
-    height:50%;
-}
 .content{
     height: 120px;
     background-color:aliceblue;
